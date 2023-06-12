@@ -1,0 +1,27 @@
+{
+  "@@locale": "uk",
+  "appTitle": "Демонстрація alphaLn",
+  "argsBasic": "Випадкове число дня: {number}!",
+  "@argsBasic": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "helloWorld": "Привіт, світе!",
+  "pluralBasic": "У вас {apples,plural,=0{нуль яблук} =1{{apples} яблуко} few{{apples} яблука} many{{apples} яблук} other{{apples} яблука}}",
+  "@pluralBasic": {
+    "placeholders": {
+      "apples": {}
+    }
+  },
+  "selectBasic": "У вас {apples,select, red{червоне яблуко} green{зелене яблуко} other{яблуко іншого кольору}}",
+  "@selectBasic": {
+    "placeholders": {
+      "apples": {
+        "type": "String"
+      }
+    }
+  }
+}

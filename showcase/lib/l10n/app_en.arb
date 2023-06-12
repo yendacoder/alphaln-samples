@@ -1,0 +1,140 @@
+{
+  "@@locale": "en",
+  "categoriesShowcase7": "Item 7",
+  "@categoriesShowcase7": {
+    "description": "This is a list of meaningless items showcasing nested categories (context). Items are not supposed to go in order.",
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category"
+  },
+  "categoriesShowcase8": "Item 8",
+  "@categoriesShowcase8": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category"
+  },
+  "categoriesShowcase9": "Item 9",
+  "@categoriesShowcase9": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category"
+  },
+  "categoriesShowcase": "Item 1",
+  "@categoriesShowcase": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category1:Sub-sub-category1"
+  },
+  "categoriesShowcase10": "Item 10",
+  "@categoriesShowcase10": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category1:Sub-sub-category1"
+  },
+  "categoriesShowcase11": "Item 11",
+  "@categoriesShowcase11": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category1:Sub-sub-category2"
+  },
+  "categoriesShowcase12": "Item 12",
+  "@categoriesShowcase12": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category1:Sub-sub-category2"
+  },
+  "categoriesShowcase3": "Item 3",
+  "@categoriesShowcase3": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category1:Sub-sub-category2"
+  },
+  "categoriesShowcase4": "Item 4",
+  "@categoriesShowcase4": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category1:Sub-sub-category3"
+  },
+  "categoriesShowcase13": "Item 13",
+  "@categoriesShowcase13": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category2"
+  },
+  "categoriesShowcase14": "Item 14",
+  "@categoriesShowcase14": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category2"
+  },
+  "categoriesShowcase2": "Item 2",
+  "@categoriesShowcase2": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category2"
+  },
+  "categoriesShowcase5": "Item 5",
+  "@categoriesShowcase5": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category2"
+  },
+  "categoriesShowcase6": "Item 6",
+  "@categoriesShowcase6": {
+    "x-flags": {
+      "untranslatable": true
+    },
+    "context": "Category:Sub-category2"
+  },
+  "appTitle": "alphaLn Showcase",
+  "argsBasic": "Random number of the day is {number}!",
+  "@argsBasic": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "helloWorld": "Hello World!",
+  "loremIpsum": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor.",
+  "@loremIpsum": {
+    "x-flags": {
+      "untranslatable": true
+    }
+  },
+  "nonTranslatable": "Flutter",
+  "@nonTranslatable": {
+    "x-flags": {
+      "untranslatable": true,
+      "short": true,
+      "one_line": true
+    }
+  },
+  "pluralBasic": "You have {apples,plural,=0{one apple} other{{apples} apples}}",
+  "@pluralBasic": {
+    "placeholders": {
+      "apples": {}
+    }
+  },
+  "selectBasic": "You have {apples,select, red{a red apple} green{a green apple} other{an apple of another color}}",
+  "@selectBasic": {
+    "placeholders": {
+      "apples": {
+        "type": "String"
+      }
+    }
+  }
+}
